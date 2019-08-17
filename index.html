@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+      integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>materialize</title>
+  </head>
+  <body id="home" class="scrollspy">
+    <div class="navbar-fixed">
+      <nav class="blue">
+        <div class="container-fluid">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo" style="padding: 0 20px 0 20px">
+              Kamellie</a
+            >
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#home ">Home</a></li>
+              <li><a href="#search ">Search</a></li>
+              <li><a href="#popular ">Popular Place</a></li>
+              <li><a href="#gallery ">Gallery</a></li>
+              <li><a href="#contact ">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#search">Search</a>
+      </li>
+      <li>
+        <a href="#popular">Popular Places</a>
+      </li>
+      <li>
+        <a href="#gallery">Gallery</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Section Slider -->
+    <section class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/resort1.jpg" />
+          <!-- random image -->
+          <div class="caption center-align">
+            <h3>This is our big Tagline!</h3>
+            <h5 class="light grey-text text-lighten-3">
+              Here's our small slogan.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/resort2.jpg" />
+          <!-- random image -->
+          <div class="caption left-align">
+            <h3>Left Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">
+              Here's our small slogan.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="img/resort3.jpg" />
+          <!-- random image -->
+          <div class="caption right-align">
+            <h3>Right Aligned Caption</h3>
+            <h5 class="light grey-text text-lighten-3">
+              Here's our small slogan.
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- Section Search -->
+    <section
+      id="search"
+      class="section section-search blue darken-1 white-text center scrollspy  z-depth-2"
+      style="position: sticky; top: 0px; padding-top: 25px; z-index: 10; "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <h3 style="font-size:2.5rem;">
+              Search Destinatin
+            </h3>
+            <div class="input-field">
+              <input
+                type="text"
+                class="white gray-text   autocomplete"
+                id="autocomplete-input"
+                placeholder="Aruba, Cancun, etc..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Icon Boxes -->
+
+    <section class="section section-icons grey lighten-4 center">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card-panel">
+              <i class="material-icons large blue-text">room</i>
+              <h4>Puck Where</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                temporibus eligendi repellat.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+            <div class="card-panel">
+              <i class="material-icons large blue-text">store</i>
+              <h4>Travel Shope</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                temporibus eligendi repellat.
+              </p>
+            </div>
+          </div>
+          <div class="col s12 m6 l4 ">
+            <div class="card-panel">
+              <i class="material-icons large blue-text">airplanemode_active</i>
+              <h4>Fly Cheap</h4>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                temporibus eligendi repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular -->
+    <section id="popular" class="section section-icons white center">
+      
+      <div class="container">
+        
+        <div class="row">
+            <h3>
+              <span class="blue-text">Popular</span>  Places</h3>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/resort1.jpg" alt="" />
+                <span class="card-title ">Senorita</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                  temporibus eligendi repellat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l4">
+              <div class="card">
+                  <div class="card-image">
+                    <img src="img/resort2.jpg" alt="" />
+                    <span class="card-title ">Barbara</span>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                      temporibus eligendi repellat.
+                    </p>
+                  </div>
+                </div>
+          </div>
+          <div class="col s12 m6 l4 ">
+              <div class="card">
+                  <div class="card-image">
+                    <img src="img/resort3.jpg" alt="" />
+                    <span class="card-title ">Lottie</span>
+                  </div>
+                  <div class="card-content">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+                      temporibus eligendi repellat.
+                    </p>
+                  </div>
+                </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <script>
+      const sideNav = document.querySelector(".sidenav");
+      M.Sidenav.init(sideNav, {});
+
+      //slider
+      const slider = document.querySelector(".slider");
+      M.Slider.init(slider, {
+        indicators: true,
+
+        height: 500,
+        interval: 2000
+      });
+
+      //autocomplete
+      const ac = document.querySelector(".autocomplete");
+      M.Autocomplete.init(ac, {
+        data: {
+          Aruba: null,
+          Cancun: null,
+          maxico: null,
+          humawei: null,
+          florida: null,
+          jamaica: null,
+          Eourope: null
+        }
+      });
+    </script>
+  </body>
+</html>
